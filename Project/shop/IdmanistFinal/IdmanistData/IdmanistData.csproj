@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C2DA69A4-674C-492F-A6B0-A641FA1122B3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IdmanistData</RootNamespace>
+    <AssemblyName>IdmanistData</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataContext\IdmanistDataContext.cs" />
+    <Compile Include="Migrations\201707171528082_InitialCreate.cs" />
+    <Compile Include="Migrations\201707171528082_InitialCreate.Designer.cs">
+      <DependentUpon>201707171528082_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709020715060_ProductDateTime.cs" />
+    <Compile Include="Migrations\201709020715060_ProductDateTime.Designer.cs">
+      <DependentUpon>201709020715060_ProductDateTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709021507573_migBrand.cs" />
+    <Compile Include="Migrations\201709021507573_migBrand.Designer.cs">
+      <DependentUpon>201709021507573_migBrand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709021510042_ForeignKeysAdded.cs" />
+    <Compile Include="Migrations\201709021510042_ForeignKeysAdded.Designer.cs">
+      <DependentUpon>201709021510042_ForeignKeysAdded.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709021525556_EFMig.cs" />
+    <Compile Include="Migrations\201709021525556_EFMig.Designer.cs">
+      <DependentUpon>201709021525556_EFMig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709031129215_CustomerClassAdd.cs" />
+    <Compile Include="Migrations\201709031129215_CustomerClassAdd.Designer.cs">
+      <DependentUpon>201709031129215_CustomerClassAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709051113403_NewMigration.cs" />
+    <Compile Include="Migrations\201709051113403_NewMigration.Designer.cs">
+      <DependentUpon>201709051113403_NewMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709051115307_migadsa.cs" />
+    <Compile Include="Migrations\201709051115307_migadsa.Designer.cs">
+      <DependentUpon>201709051115307_migadsa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709061150366_CustomersAdd.cs" />
+    <Compile Include="Migrations\201709061150366_CustomersAdd.Designer.cs">
+      <DependentUpon>201709061150366_CustomersAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709061152276_CstmerAdded.cs" />
+    <Compile Include="Migrations\201709061152276_CstmerAdded.Designer.cs">
+      <DependentUpon>201709061152276_CstmerAdded.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709061247244_CustomerModify.cs" />
+    <Compile Include="Migrations\201709061247244_CustomerModify.Designer.cs">
+      <DependentUpon>201709061247244_CustomerModify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709071201159_CustomerIdentity.cs" />
+    <Compile Include="Migrations\201709071201159_CustomerIdentity.Designer.cs">
+      <DependentUpon>201709071201159_CustomerIdentity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709071253244_CustomerOnlyUserName.cs" />
+    <Compile Include="Migrations\201709071253244_CustomerOnlyUserName.Designer.cs">
+      <DependentUpon>201709071253244_CustomerOnlyUserName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709081214133_CustomerRequired.cs" />
+    <Compile Include="Migrations\201709081214133_CustomerRequired.Designer.cs">
+      <DependentUpon>201709081214133_CustomerRequired.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Model\Category.cs" />
+    <Compile Include="Model\Customer.cs" />
+    <Compile Include="Model\Product.cs" />
+    <Compile Include="Model\ProductBrand.cs" />
+    <Compile Include="Model\ProductFeature.cs" />
+    <Compile Include="Model\ProductImage.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201707171528082_InitialCreate.resx">
+      <DependentUpon>201707171528082_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709020715060_ProductDateTime.resx">
+      <DependentUpon>201709020715060_ProductDateTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709021507573_migBrand.resx">
+      <DependentUpon>201709021507573_migBrand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709021510042_ForeignKeysAdded.resx">
+      <DependentUpon>201709021510042_ForeignKeysAdded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709021525556_EFMig.resx">
+      <DependentUpon>201709021525556_EFMig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709031129215_CustomerClassAdd.resx">
+      <DependentUpon>201709031129215_CustomerClassAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709051113403_NewMigration.resx">
+      <DependentUpon>201709051113403_NewMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709051115307_migadsa.resx">
+      <DependentUpon>201709051115307_migadsa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709061150366_CustomersAdd.resx">
+      <DependentUpon>201709061150366_CustomersAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709061152276_CstmerAdded.resx">
+      <DependentUpon>201709061152276_CstmerAdded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709061247244_CustomerModify.resx">
+      <DependentUpon>201709061247244_CustomerModify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709071201159_CustomerIdentity.resx">
+      <DependentUpon>201709071201159_CustomerIdentity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709071253244_CustomerOnlyUserName.resx">
+      <DependentUpon>201709071253244_CustomerOnlyUserName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709081214133_CustomerRequired.resx">
+      <DependentUpon>201709081214133_CustomerRequired.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

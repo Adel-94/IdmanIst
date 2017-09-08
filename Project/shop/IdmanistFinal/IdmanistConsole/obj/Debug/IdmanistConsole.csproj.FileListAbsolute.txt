@@ -1,0 +1,13 @@
+C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\IdmanistConsole\bin\Debug\IdmanistConsole.exe.config
+C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\IdmanistConsole\bin\Debug\IdmanistConsole.exe
+C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\IdmanistConsole\bin\Debug\IdmanistConsole.pdb
+C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\IdmanistConsole\bin\Debug\EntityFramework.dll
+C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\IdmanistConsole\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\IdmanistConsole\bin\Debug\IdmanistData.dll
+C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\IdmanistConsole\bin\Debug\IdmanistData.pdb
+C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\IdmanistConsole\bin\Debug\IdmanistData.dll.config
+C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\IdmanistConsole\bin\Debug\EntityFramework.xml
+C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\IdmanistConsole\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\IdmanistConsole\obj\Debug\IdmanistConsole.exe
+C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\IdmanistConsole\obj\Debug\IdmanistConsole.pdb
+C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\IdmanistConsole\obj\Debug\IdmanistConsole.csprojResolveAssemblyReference.cache
