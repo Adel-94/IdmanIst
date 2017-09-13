@@ -30,6 +30,7 @@ namespace IdmanistData.Model
         // @".)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$", ErrorMessage = "Please enter the valid email")]
         [EmailAddress]
         public string Email { get; set; }
-     
+        public virtual ICollection<Wishes> Wishes { get; set; }
+
     }
 }

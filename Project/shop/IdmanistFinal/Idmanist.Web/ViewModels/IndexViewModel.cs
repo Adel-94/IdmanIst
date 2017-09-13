@@ -10,5 +10,7 @@ namespace Idmanist.Web.ViewModels
 
         public IList<IdmanistData.Model.Category> Categories { get; set; }
         public IEnumerable<IdmanistData.Model.Product> Products { get; set; }
+        public IEnumerable<IdmanistData.Model.Product> FeaturedProducts { get; set; }
+        public IEnumerable<IdmanistData.Model.Wishes> wishesss { get; set; }
     }
 }

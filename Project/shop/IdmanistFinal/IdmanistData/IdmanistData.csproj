@@ -104,6 +104,34 @@
     <Compile Include="Migrations\201709081214133_CustomerRequired.Designer.cs">
       <DependentUpon>201709081214133_CustomerRequired.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201709081539092_WishesProductCustomer.cs" />
+    <Compile Include="Migrations\201709081539092_WishesProductCustomer.Designer.cs">
+      <DependentUpon>201709081539092_WishesProductCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709081553051_ProductAddMywishes.cs" />
+    <Compile Include="Migrations\201709081553051_ProductAddMywishes.Designer.cs">
+      <DependentUpon>201709081553051_ProductAddMywishes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709081623114_WishesUpdate.cs" />
+    <Compile Include="Migrations\201709081623114_WishesUpdate.Designer.cs">
+      <DependentUpon>201709081623114_WishesUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709111206399_Add-Migration %27Foreign Key%27.cs" />
+    <Compile Include="Migrations\201709111206399_Add-Migration %27Foreign Key%27.Designer.cs">
+      <DependentUpon>201709111206399_Add-Migration %27Foreign Key%27.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709131145033_addcustomer_id_foreign_key.cs" />
+    <Compile Include="Migrations\201709131145033_addcustomer_id_foreign_key.Designer.cs">
+      <DependentUpon>201709131145033_addcustomer_id_foreign_key.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709131205525_Test.cs" />
+    <Compile Include="Migrations\201709131205525_Test.Designer.cs">
+      <DependentUpon>201709131205525_Test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709131219226_newtablewishes.cs" />
+    <Compile Include="Migrations\201709131219226_newtablewishes.Designer.cs">
+      <DependentUpon>201709131219226_newtablewishes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Category.cs" />
     <Compile Include="Model\Customer.cs" />
@@ -111,6 +139,7 @@
     <Compile Include="Model\ProductBrand.cs" />
     <Compile Include="Model\ProductFeature.cs" />
     <Compile Include="Model\ProductImage.cs" />
+    <Compile Include="Model\Wishes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -159,6 +188,27 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201709081214133_CustomerRequired.resx">
       <DependentUpon>201709081214133_CustomerRequired.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709081539092_WishesProductCustomer.resx">
+      <DependentUpon>201709081539092_WishesProductCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709081553051_ProductAddMywishes.resx">
+      <DependentUpon>201709081553051_ProductAddMywishes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709081623114_WishesUpdate.resx">
+      <DependentUpon>201709081623114_WishesUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709111206399_Add-Migration %27Foreign Key%27.resx">
+      <DependentUpon>201709111206399_Add-Migration %27Foreign Key%27.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709131145033_addcustomer_id_foreign_key.resx">
+      <DependentUpon>201709131145033_addcustomer_id_foreign_key.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709131205525_Test.resx">
+      <DependentUpon>201709131205525_Test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709131219226_newtablewishes.resx">
+      <DependentUpon>201709131219226_newtablewishes.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

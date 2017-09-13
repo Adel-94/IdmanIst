@@ -23,3 +23,10 @@ C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\IdmanistData\obj\Debu
 C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\IdmanistData\obj\Debug\IdmanistData.Migrations.CustomerIdentity.resources
 C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\IdmanistData\obj\Debug\IdmanistData.Migrations.CustomerOnlyUserName.resources
 C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\IdmanistData\obj\Debug\IdmanistData.Migrations.CustomerRequired.resources
+C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\IdmanistData\obj\Debug\IdmanistData.Migrations.WishesProductCustomer.resources
+C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\IdmanistData\obj\Debug\IdmanistData.Migrations.ProductAddMywishes.resources
+C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\IdmanistData\obj\Debug\IdmanistData.Migrations.WishesUpdate.resources
+C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\IdmanistData\obj\Debug\IdmanistData.Migrations.AddMigrationForeignKey.resources
+C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\IdmanistData\obj\Debug\IdmanistData.Migrations.addcustomer_id_foreign_key.resources
+C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\IdmanistData\obj\Debug\IdmanistData.Migrations.Test.resources
+C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\IdmanistData\obj\Debug\IdmanistData.Migrations.newtablewishes.resources
