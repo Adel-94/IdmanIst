@@ -12,6 +12,7 @@
     <!-- Mobile Specific -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <!-- CSS Style -->
+    @RenderSection("searchCss", false)
     @Styles.Render("~/Content/css/animate.css",
                       "~/Content/css/bootstrap.min.css",
                       "~/Content/css/style.css",
@@ -48,6 +49,7 @@
     <script type="text/javascript" src="~/Scripts/like.js"></script>
     <script type="text/javascript" src="~/Content/js/revslider.js"></script>
     <script type="text/javascript" src="~/Content/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="~/Content/js/search.js"></script>
     <script type="text/javascript">
         jQuery(document).ready(function () {
             jQuery('#rev_slider_4').show().revolution({

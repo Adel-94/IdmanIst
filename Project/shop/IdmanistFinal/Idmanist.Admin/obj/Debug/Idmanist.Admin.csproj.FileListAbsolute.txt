@@ -104,3 +104,7 @@ C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\Idmanist.Admin\bin\Mi
 C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\Idmanist.Admin\obj\Debug\Idmanist.Admin.csprojResolveAssemblyReference.cache
 C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\Idmanist.Admin\obj\Debug\Idmanist.Admin.dll
 C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\Idmanist.Admin\obj\Debug\Idmanist.Admin.pdb
+C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\Idmanist.Admin\bin\PagedList.dll
+C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\Idmanist.Admin\bin\PagedList.Mvc.dll
+C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\Idmanist.Admin\bin\PagedList.xml
+C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\Idmanist.Admin\bin\PagedList.Mvc.xml

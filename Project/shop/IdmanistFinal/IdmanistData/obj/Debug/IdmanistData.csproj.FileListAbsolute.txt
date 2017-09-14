@@ -30,3 +30,7 @@ C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\IdmanistData\obj\Debu
 C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\IdmanistData\obj\Debug\IdmanistData.Migrations.addcustomer_id_foreign_key.resources
 C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\IdmanistData\obj\Debug\IdmanistData.Migrations.Test.resources
 C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\IdmanistData\obj\Debug\IdmanistData.Migrations.newtablewishes.resources
+C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\IdmanistData\bin\Debug\PagedList.dll
+C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\IdmanistData\bin\Debug\PagedList.Mvc.dll
+C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\IdmanistData\bin\Debug\PagedList.xml
+C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\IdmanistData\bin\Debug\PagedList.Mvc.xml

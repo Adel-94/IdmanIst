@@ -28,3 +28,7 @@ C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\IdmanistCore\bin\Debu
 C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\IdmanistCore\obj\Debug\IdmanistCore.csprojResolveAssemblyReference.cache
 C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\IdmanistCore\obj\Debug\IdmanistCore.dll
 C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\IdmanistCore\obj\Debug\IdmanistCore.pdb
+C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\IdmanistCore\bin\Debug\PagedList.dll
+C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\IdmanistCore\bin\Debug\PagedList.Mvc.dll
+C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\IdmanistCore\bin\Debug\PagedList.xml
+C:\Users\Adel\Desktop\idman.ist\Project\shop\IdmanistFinal\IdmanistCore\bin\Debug\PagedList.Mvc.xml
