@@ -27,7 +27,7 @@ namespace Idmanist.Web.Controllers
         public ActionResult Index()
         {
             IdmanistDataContext db = new IdmanistDataContext();
-            IndexViewModel model = new IndexViewModel();
+            ProdInViewModel model = new ProdInViewModel();
              model.wishesss = db.Wishes.ToList();
             //var wishesss = db.Wishes.ToList();
             model.Categories = _categoryRepository.GetAll().ToList();

@@ -6249,7 +6249,7 @@ a.button-asc.left span {
 	padding: 5px 8px 5px 30px;
 }
 .toolbar .pager {
-	text-align: left;
+	
 	margin: 0 10px 0 0;
 	padding: 0;
 	float: right;
@@ -9705,5 +9705,8 @@ ol#compare-items li a.product-name {
         position: relative;
     }
 }
-
+.allproducts {
+    left:13%;
+    margin-top:5%;
+}
    

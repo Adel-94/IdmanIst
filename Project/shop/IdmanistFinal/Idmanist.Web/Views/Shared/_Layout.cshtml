@@ -13,6 +13,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <!-- CSS Style -->
     @RenderSection("searchCss", false)
+   
+    @model Idmanist.Web.ViewModels.ProdInViewModel
+    @RenderSection("allproductsCss", false)
     @Styles.Render("~/Content/css/animate.css",
                       "~/Content/css/bootstrap.min.css",
                       "~/Content/css/style.css",
@@ -29,7 +32,7 @@
     @Html.Partial("_header")
     <!-- end header --> 
     <!-- Navbar -->
-    @Html.Partial("_topNav")
+    @Html.Partial("_topNav",Model)
     <!-- end nav -->  
     <div class="body-content">
         @RenderBody()
